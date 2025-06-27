@@ -1,0 +1,125 @@
+.MainSection {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.MainSection ul {
+  font-family: "Syne", sans-serif;
+  display: flex;
+  list-style: none;
+  color: #ffffff;
+  gap: 24px;
+}
+
+.MainSection ul li {
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+}
+
+.MainSection ul li:hover {
+  color: #000000;
+  padding: 8px 24px;
+  background-color: #ffffff;
+}
+
+.MainSection button {
+  font-family: "Syne", sans-serif;
+  padding: 8px 24px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.MainSection button:hover {
+  color: #000000;
+  padding: 8px 24px;
+  background-color: #ffffff;
+}
+
+
+.menuIcon {
+  display: none;
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.links {
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .MainSection {
+    padding: 12px 10px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .links {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: 10px;
+    pointer-events: none;
+  }
+
+  .links.show {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+  .links ul {
+    flex-direction: column;
+    padding-left: 0;
+    gap: 12px;
+  }
+
+  .links ul li {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .text {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+
+  .MainSection button {
+    font-size: 7px;
+    padding: 6px 20px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+  .MainSection {
+    padding: 10px 30px;
+  }
+
+
+  .MainSection button {
+    font-size: 10px;
+
+  }
+}

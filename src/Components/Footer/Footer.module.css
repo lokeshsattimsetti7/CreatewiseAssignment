@@ -1,0 +1,376 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    /* width: 100%;
+    height: 100%; */
+    background-color: #010208;
+}
+.MainConatiner{
+    display: flex;
+    justify-content: left;
+    /* width: 100%; */
+    flex-direction: column;
+
+}
+ .LogoConatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  overflow-x: auto;     
+  white-space: nowrap;   
+  padding-bottom: 112px;
+  width: 100%;
+}
+
+.LogoConatiner::-webkit-scrollbar {
+  display: none;
+}
+
+.LogoConatiner img {
+  width: 10%;       
+  height: auto;
+  flex-shrink: 0;     
+  object-fit: contain;
+}
+
+ .MiddleConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    flex-direction: column;
+    gap: 32px;
+ }
+ .text h3{
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: "Syne", sans-serif;
+ }
+ .textbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+ }
+ .textbottom p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+      font-family: "Poppins", sans-serif;
+ }
+ .LastConatiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+     font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Syne", sans-serif;
+    padding: 32px 100px 32px 100px;
+}
+.LastRight{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.LogoConatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-bottom: 112px;
+  width: max-content;
+  animation: scrollLeft 10s linear infinite;
+}
+
+
+.LogoConatiner img {
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    /* width: 100%;
+    height: 100%; */
+    background-color: #010208;
+}
+.MainConatiner{
+    display: flex;
+    justify-content: left;
+    /* width: 100%; */
+    flex-direction: column;
+
+}
+ .LogoConatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: auto;     
+  white-space: nowrap;   
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.LogoConatiner::-webkit-scrollbar {
+  display: none;
+}
+
+.LogoConatiner img {
+  width: 30px;       
+  height: auto;
+  flex-shrink: 0;     
+  object-fit: contain;
+}
+
+ .MiddleConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    flex-direction: column;
+    gap: 10px;
+ }
+ .text h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: "Syne", sans-serif;
+ }
+ .textbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+ }
+ .textbottom p{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+      font-family: "Poppins", sans-serif;
+ }
+ .LastConatiner{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+     font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Syne", sans-serif;
+    padding: 16px 20px 16px 20px;
+}
+.LastRight{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.LogoConatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 50px;
+  width: max-content;
+  animation: scrollLeft 10s linear infinite;
+}
+
+
+.LogoConatiner img {
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .main {
+    padding: 0px;
+    margin: 0px;
+    background-color: #010208;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .MainConatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .LogoConatiner {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 80px;
+    width: 100%;
+    animation: scrollLeft 12s linear infinite;
+  }
+
+  .LogoConatiner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .LogoConatiner img {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+
+  .MiddleConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .text h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: "Syne", sans-serif;
+  }
+
+  .textbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .textbottom p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .LastConatiner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Syne", sans-serif;
+    padding: 24px 50px;
+  }
+
+  .LastRight {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .main {
+    padding: 0px;
+    margin: 0px;
+    background-color: #010208;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .MainConatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .LogoConatiner {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 100px;
+    width: 100%;
+    animation: scrollLeft 10s linear infinite;
+  }
+
+  .LogoConatiner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .LogoConatiner img {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+
+  .MiddleConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .text h3 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: "Syne", sans-serif;
+  }
+
+  .textbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .textbottom p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .LastConatiner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Syne", sans-serif;
+    padding: 32px 80px;
+  }
+
+  .LastRight {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
+}

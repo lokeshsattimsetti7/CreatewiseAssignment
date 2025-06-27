@@ -1,0 +1,172 @@
+.Maincontainer{
+    display: flex;
+    justify-content: center;
+    padding:64px 100px ;
+    background-color: #010208;
+    /* width: 100%;
+    height: 100%; */
+}
+.middlecontainer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+}
+.topcontainer{
+    display: flex;
+
+}
+.topcontainer h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    color: #ffffff;
+}
+.topcontainer img{
+    width: 32px;
+    height: 32px;
+}
+.bottomcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.leftdiv h4{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Syne", sans-serif;
+    color: #ffffff;
+}
+.rightdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+.rightdiv h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "Syne", sans-serif;
+    color: #ffffff;
+}
+.rightdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ffffff3b; 
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .Maincontainer {
+    padding: 32px 16px;
+    flex-direction: column;
+  }
+
+  .topcontainer h3 {
+    font-size: 24px;
+  }
+
+  .topcontainer img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .div1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .leftdiv h4 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .rightdiv {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .rightdiv h5 {
+    font-size: 18px;
+  }
+
+  .rightdiv p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .Maincontainer {
+    padding: 48px 32px;
+  }
+
+  .topcontainer h3 {
+    font-size: 32px;
+  }
+
+  .topcontainer img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .div1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .leftdiv h4 {
+    font-size: 26px;
+  }
+
+  .rightdiv {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .rightdiv h5 {
+    font-size: 20px;
+  }
+
+  .rightdiv p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .Maincontainer {
+    padding: 64px 50px;
+  }
+
+  .topcontainer h3 {
+    font-size: 36px;
+  }
+
+  .div1 {
+    gap: 40px;
+  }
+
+  .leftdiv h4 {
+    font-size: 30px;
+  }
+
+  .rightdiv h5 {
+    font-size: 22px;
+  }
+
+  .rightdiv p {
+    font-size: 16px;
+  }
+}
+
